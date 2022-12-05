@@ -9,12 +9,11 @@
           <li *ngFor="let value of pokemon.status.types">
             {{value.type.name}}             
           </li>
-          
       </ul>
     </section>
   
     <section class="pokemon__image">
-      <img src="assets/pokemon.png" [alt]="pokemon.name">
+      <img [src]="pokemon.status.sprites.front_dafualt" [alt]="pokemon.name">
     </section>
   </a>
 </ng-template>
