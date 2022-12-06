@@ -15,7 +15,7 @@
             <h3>Estadisticas</h3>
 
             <ol>
-                <li *ngFor="let value of pokemon[0].stats" class="bold"> 
+                <li *ngFor="let value of pokemon[0].stats"> 
                     {{ value.stat.name }}
 
                   <strong> :
@@ -24,7 +24,7 @@
                 </li>
             </ol>
         </section>
-        <a [routerLink]="['']" class="btn btn__secondary">Regresar</a>
+        <a [routerLink]="['']" class="btn btn__secondary"><img src="assets/ultra-ball.png" alt="Regresa"></a>
        </article>
     </section>
   
