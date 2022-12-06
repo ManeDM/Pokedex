@@ -1,16 +1,17 @@
 <poke-header></poke-header>
 
 <main>
+    
     <section class="pokemon__names">
        <h1>{{pokemon[0].name}}</h1>
        <h2>{{pokemon[1].names[0].name}}</h2>
     </section>
 
     <section class="pokemon__status">
-       <img src={{pokemon[0].sprites.front_default}} alt={{pokemon[0].name}}>
+       <img src={{pokemon[0].sprites.other.dream_world.front_default}} alt={{pokemon[0].name}}>
 
        <article>
-        <section>
+        <section class="pokemon__data">
             <h3>Estadisticas</h3>
 
             <ol>
@@ -23,9 +24,8 @@
                 </li>
             </ol>
         </section>
-        <a [routerLink]="['']" class="btn btn__secondary"></a>
+        <a [routerLink]="['']" class="btn btn__secondary">Regresar</a>
        </article>
     </section>
-
-
+  
 </main>
