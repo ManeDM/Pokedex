@@ -82,12 +82,13 @@
 			.btn__secondary{
 				margin: rem-calc(-250) rem-calc(10) rem-calc(10) rem-calc(400);
 				position: absolute;
-				scale: 40%;
-			} 
+				scale: 20%;
+				transition: 0.8s;
+			}
 			
-			
-            }
-
-		
-	}
-}
+			.btn__secondary:hover{
+				transform: scale(2.5);
+			}
+		   }
+          }
+         }
