@@ -22,9 +22,13 @@ export class HomeComponent {
       res => {
         this.setAllPokemons = res.results;
         this.getAllPokemons = this.setAllPokemons;
+
+           
          
       },
      
     );
   }
+
+  
 }
