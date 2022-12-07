@@ -14,7 +14,8 @@ import { PokeListComponent } from './poke-list/poke-list.component';
   declarations: [
     PokeHeaderComponent,
     PokeSearchComponent,
-    PokeListComponent
+    PokeListComponent,
+    
   ],
   exports: [
     PokeHeaderComponent,

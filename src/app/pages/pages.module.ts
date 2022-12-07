@@ -11,16 +11,20 @@ import { SharedModule } from "../shared/shared.module";
 //Pages
 import { HomeComponent } from './home/home.component';
 import { DetailsComponent } from './details/details.component';
+import { PokeTeamComponent } from '../shared/poke-team/poke-team.component';
+
 
 @NgModule({
     declarations: [
         HomeComponent,
-        DetailsComponent
+        DetailsComponent,
+        PokeTeamComponent
     ],
     imports: [
         CommonModule,
         RoutingModule,
-        SharedModule
+        SharedModule,
+        
     ]
 })
 export class PagesModule { }
