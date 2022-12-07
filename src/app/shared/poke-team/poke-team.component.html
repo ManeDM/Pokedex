@@ -1,9 +1,13 @@
-<div class="poketeam">
+<a href="#" (click)="showTeam()"><img src="assets/icons/team-icon.svg" alt="My Poketeam" class="team_icon"></a>
+<div class="poketeam" *ngIf="show">
+  <button class=""></button>
     <!-------------------------Venasuar--------------------------->
   <section class="lista">
     <a class="pokemon" href="details/3">
       <section class="pokemon__status">
         <h2>Venasaur</h2>
+        <h3>Grass</h3>
+        <h3>Poison</h3>
   </section>
   <section class="pokemon__image">
         <img class="pokemon-img" src="../../../assets/team-imgs/venusaur.gif" alt="Venasaur" />
@@ -15,6 +19,7 @@
     <a class="pokemon" href="details/59" >
       <section class="pokemon__status">
           <h2>Arcanine</h2>
+          <h3>Fire</h3>
   </section>
   <section class="pokemon__image">
         <img class="pokemon-img" src="../../../assets/team-imgs/arcanine.gif" alt="Arcanine" />
@@ -26,6 +31,7 @@
     <a class="pokemon" href="details/135">
      <section class="pokemon__status">
           <h2>Jolteon</h2>
+          <h3>Electric</h3>
     </section>
     <section class="pokemon__image">
           <img class="pokemon-img" src="../../../assets/team-imgs/jolteon.gif" alt="Jolteon" />
@@ -37,6 +43,8 @@
     <a class="pokemon" href="details/131">
      <section class="pokemon__status">
           <h2>Lapras</h2>
+          <h3>Water</h3>
+          <h3>Ice</h3>
     </section>
     <section class="pokemon__image">
            <img class="pokemon-img" src="../../../assets//team-imgs/lapras.gif" alt="Lapras" />
@@ -48,6 +56,7 @@
     <a class="pokemon" href="details/65">
      <section class="pokemon__status">
         <h2>Alakazam</h2>
+        <h3>Psychic</h3>
     </section>
     <section class="pokemon__image">
            <img class="pokemon-img" src="../../../assets/team-imgs/alakazam.gif" alt="Alakazam" />
@@ -59,6 +68,8 @@
     <a class="pokemon" href="details/94" >
      <section class="pokemon__status">
         <h2>Gengar</h2>
+        <h3>Ghost</h3>
+        <h3>Poison</h3>
     </section>
     <section class="pokemon__image">
           <img class="pokemon-img" src="../../../assets/team-imgs/gengar-3.gif" alt="" />

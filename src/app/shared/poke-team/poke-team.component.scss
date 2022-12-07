@@ -3,6 +3,9 @@
 $padding: rem-calc(10);
 
 :host{
+    .team_icon{
+        width: 200px;
+    }
     .poketeam{
         display: flex;
         flex-direction: row;

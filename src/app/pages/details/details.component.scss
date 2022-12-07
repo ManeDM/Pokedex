@@ -80,15 +80,20 @@
 
 			}
 			.btn__secondary{
-				margin: rem-calc(-250) rem-calc(10) rem-calc(10) rem-calc(400);
+				margin: rem-calc(-250) rem-calc(10) rem-calc(10) rem-calc(360);
 				position: absolute;
-				scale: 20%;
-				transition: 0.8s;
+				scale: 35%;
+				animation: load 2s infinite;
 			}
 			
 			.btn__secondary:hover{
-				transform: scale(2.5);
-			}
+				@keyframes load { 
+					50%{transform: translateX(20px) rotate(12deg) translateY(-10px);
+
+				}
+					
+				}
+			   }
 		   }
           }
          }

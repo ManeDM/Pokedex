@@ -9,11 +9,6 @@ import { map, tap } from 'rxjs/operators';
   providedIn: 'root'
 })
 export class PokeApiService {
-  [x: string]: any;
-  mew(name: string) {
-    throw new Error('Method not implemented.');
-  }
-
   private url: string = 'https://pokeapi.co/api/v2/pokemon/?offset=0&limit=151'
 
   constructor(
