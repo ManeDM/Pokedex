@@ -21,10 +21,9 @@
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
-              "src/polyfills.ts"
+              "zone.js"
             ],
             "tsConfig": "tsconfig.app.json",
-             "aot": true,
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/logo.ico",
