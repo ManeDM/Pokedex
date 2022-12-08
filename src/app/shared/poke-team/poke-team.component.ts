@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class PokeTeamComponent {
    
-  show: boolean = true;
+  show: boolean = false;
 
   showTeam(){
     if(this.show){
