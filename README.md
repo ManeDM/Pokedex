@@ -71,5 +71,9 @@ En este componente se crea un metodo privado que nos permitio usar el servicio a
 </p>
 
 <p align="center">
-En este componente se crea un metodo privado que nos permitio usar el servicio anteriormente creado, posteriormente se crea un metodo publico capaz de recibir cualquier tipo de variable, el documento HTML hace uso de un "NGfor" para iterar el template del listado de pokemons y un "ngFOrOf" para precisar la varaible desde donde se van a iterar los pokemons en este casp "getAllPokiemons"
+La función principal del poke-search este basada en dato de entrada que el usuario ponga en la barra de busqueda, gracias al decorador "@Output" podemos tomar valor de otro componentes esto nos permitira enlazar el buscador con la tabla de pokemons, a ese decorador le atribuimos una variable publica llamda "emmitSearch" que servira de puente entre el Input de data puesto en el HTML o buscador, los valores recibidos atravez de la funcion de TS "eventEmmiter" son de tipo string.
 </p>
+
+<h3 align="center">Poke-Team</h3>
+
+No tiene ninguna funcionalidad, esta hecho a base de HTML y CSS, son un conjunto de tarjetas enlazadas a los datos especificos de cada pokemon al que se ahce referencia.
