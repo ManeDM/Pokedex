@@ -77,7 +77,7 @@ La función principal del poke-search este basada en dato de entrada que el usua
 <h3 align="center">Poke-Team</h3>
 <p align="center">
 
-<img src="https://github.com/ManeDM/Pokedex/blob/main/src/assets/read_img/PokeSearch.jpeg" width="350px"> 
+<img src="https://github.com/ManeDM/Pokedex/blob/main/src/assets/read_img/Poke-Team.jpeg" width="350px"> 
 
 </p>
 
@@ -89,7 +89,7 @@ El Poke-Team esta formado por tarjetas de los datos especificos de cada pokemon 
 
 <p align="center">
 
-<img src="https://github.com/ManeDM/Pokedex/blob/main/src/assets/read_img/TS-Home.jpeg" width="350px"> 
+<img src="https://github.com/ManeDM/Pokedex/blob/main/src/assets/read_img/HTML-Home.jpeg" width="350px"> 
 
 </p>
 
@@ -97,7 +97,7 @@ La función principal Home es poder usar los datos del servicio empleados en tod
 
 <p align="center">
 
-<img src="https://github.com/ManeDM/Pokedex/blob/main/src/assets/read_img/HTML-Home.jpeg" width="350px"> 
+<img src="https://github.com/ManeDM/Pokedex/blob/main/src/assets/read_img/TS-Home.jpeg" width="350px"> 
 
 </p>
 
@@ -105,7 +105,7 @@ La función principal Home es poder usar los datos del servicio empleados en tod
 <h3 align="center">Poke-Details</h3>
 <p align="center">
 
-<img src="https://github.com/ManeDM/Pokedex/blob/main/src/assets/read_img/PokeSearch.jpeg" width="350px"> 
+<img src="https://github.com/ManeDM/Pokedex/blob/main/src/assets/read_img/Poke-Details.jpeg" width="350px"> 
 
 </p>
 
