@@ -39,5 +39,24 @@ El segundo grupo esta ubicado en la carpeta Shared y se encuentran los component
 </p>
 
 <p>
-Se crea un metodo privado para llamar la pokeAPI, luego se crea un segundo metodo que se encargara de llamar a los pokemons mediante el metodo GET, este metodo nos devolvera cada uno de los objetos listados en la API 
+Se crea un metodo privado para llamar la pokeAPI, luego se crea un segundo metodo que se encargara de llamar a los pokemons mediante el uso de GET, este metodo nos devolvera cada uno de los objetos listados en la API 
+</p>
+
+<h2>Shared y sus componentes</h2>
+
+<h3>Poke-header</h3>
+
+<p>
+Es la cabecera general de la página, no tiene ninguna funcionalidad o logica programada.
+</p>
+
+<h3>Poke-list</h3>
+<p align="center">
+
+<img src="https://github.com/ManeDM/Pokedex/blob/main/src/assets/read_img/PokeList.jpeg" width="350px"> 
+
+</p>
+
+<p>
+En este componente se crea un metodo privado que nos permitio usar el servicio anteriormente creado
 </p>
