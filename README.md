@@ -34,10 +34,10 @@ El segundo grupo esta ubicado en la carpeta Shared y se encuentran los component
 
 <p align="center">
 
-<img src="https://github.com/ManeDM/Pokedex/blob/main/src/assets/read_img/PokeService.jpeg" >
+<img src="https://github.com/ManeDM/Pokedex/blob/main/src/assets/read_img/PokeService.jpeg" width="350px"> >
 
 </p>
-Se crea un metodo privado para llamar la pokeAPI, luego se crea un segundo metodo que se encargara de llamar a los pokemons mediante el metodo GET, este metodo nos devolvera 
+Se crea un metodo privado para llamar la pokeAPI, luego se crea un segundo metodo que se encargara de llamar a los pokemons mediante el metodo GET, este metodo nos devolvera cada uno de los objetos listados en la API 
 <p>
 
 </p>
