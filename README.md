@@ -77,3 +77,17 @@ La función principal del poke-search este basada en dato de entrada que el usua
 <h3 align="center">Poke-Team</h3>
 
 No tiene ninguna funcionalidad, esta hecho a base de HTML y CSS, son un conjunto de tarjetas enlazadas a los datos especificos de cada pokemon al que se ahce referencia.
+
+<h2 align="center">Pages y sus componentes</h2>
+
+<h3 align="center">Home</h3>
+
+<p align="left">
+
+<img src="https://github.com/ManeDM/Pokedex/blob/main/src/assets/read_img/TS-Home.jpeg" width="350px"> 
+
+</p>
+
+<p align="center">
+La función principal del poke-search este basada en dato de entrada que el usuario ponga en la barra de busqueda, gracias al decorador "@Output" podemos tomar valor de otro componentes esto nos permitira enlazar el buscador con la tabla de pokemons, a ese decorador le atribuimos una variable publica llamda "emmitSearch" que servira de puente entre el Input de data puesto en el HTML o buscador, los valores recibidos atravez de la funcion de TS "eventEmmiter" son de tipo string.
+</p>
