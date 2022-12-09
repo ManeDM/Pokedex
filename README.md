@@ -1,12 +1,15 @@
 
-<h1 aling="center">Pokedex</h1>
+<h1  style="text-align:center">
 
+Fuente: https://www.iteramos.com/pregunta/34047/github-readmemd-imagen-central>Pokedex</h1>.
 
+<p style="text-align:center">
 
-![Gengar](https://github.com/ManeDM/Pokedex/blob/main/src/assets/team-imgs/gengar-3.gif )
+![Gengar](https://github.com/ManeDM/Pokedex/blob/main/src/assets/team-imgs/gengar-3.gif)
 
+</p>
 
-<h2 aling="center" width="150px"> Estructura de carpetas</h2>
+<h2 style="text-align:center" width="150px"> Estructura de carpetas</h2>
 <ul>
 <li>Pages
 <ul>Details</ul>
