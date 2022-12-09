@@ -40,6 +40,8 @@ El segundo grupo esta ubicado en la carpeta Shared y se encuentran los component
 
 <p>
 Se crea un metodo privado para llamar la pokeAPI, luego se crea un segundo metodo que se encargara de llamar a los pokemons mediante el uso de "GET", este metodo nos devolvera cada uno de los objetos listados en la API, ya que la funcionalidad "MAP", nos permite mapear cada uno de los los objetos dentro de "results" que para este vendria a ser cada pokemon y los atributos que los componen.
+
+Se crea un metodo publico "apiGetPokemons" que es el que nos permitira tomar los datos de un poquemons especifico.
 </p>
 
 <h2>Shared y sus componentes</h2>
@@ -51,12 +53,23 @@ Es la cabecera general de la página, no tiene ninguna funcionalidad o logica pr
 </p>
 
 <h3>Poke-list</h3>
-<p align="center">
+<p align="left">
 
 <img src="https://github.com/ManeDM/Pokedex/blob/main/src/assets/read_img/PokeList.jpeg" width="350px"> 
 
 </p>
 
 <p>
-En este componente se crea un metodo privado que nos permitio usar el servicio anteriormente creado
+En este componente se crea un metodo privado que nos permitio usar el servicio anteriormente creado, posteriormente se crea un metodo publico capaz de recibir cualquier tipo de variable, el documento HTML hace uso de un "NGfor" para iterar el template del listado de pokemons y un "ngFOrOf" para precisar la varaible desde donde se van a iterar los pokemons en este casp "getAllPokiemons"
+</p>
+
+<h3>Poke-Search</h3>
+<p align="left">
+
+<img src="https://github.com/ManeDM/Pokedex/blob/main/src/assets/read_img/PokeSearch.jpeg" width="350px"> 
+
+</p>
+
+<p>
+En este componente se crea un metodo privado que nos permitio usar el servicio anteriormente creado, posteriormente se crea un metodo publico capaz de recibir cualquier tipo de variable, el documento HTML hace uso de un "NGfor" para iterar el template del listado de pokemons y un "ngFOrOf" para precisar la varaible desde donde se van a iterar los pokemons en este casp "getAllPokiemons"
 </p>
