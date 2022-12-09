@@ -55,7 +55,7 @@ Es la cabecera general de la página, no tiene ninguna funcionalidad o logica pr
 <h3 align="center">Poke-list</h3>
 <p align="center">
 
-<img src="https://github.com/ManeDM/Pokedex/blob/main/src/assets/read_img/PokeList.jpeg" width="350px" align="center"> 
+<img src="https://github.com/ManeDM/Pokedex/blob/main/src/assets/read_img/PokeList.jpeg" width="350px" > 
 
 </p>
 
