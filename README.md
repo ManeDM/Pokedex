@@ -1,9 +1,9 @@
 
-<h1 align="center">Pokedex</h1>.
+<h1 align="center">Pokedex</h1>
 
 <p align="center">
 
-![Gengar](https://github.com/ManeDM/Pokedex/blob/main/src/assets/team-imgs/gengar-3.gif)
+(https://github.com/ManeDM/Pokedex/blob/main/src/assets/team-imgs/gengar-3.gif)
 
 </p>
 
@@ -21,6 +21,6 @@
 <ul>Poke-Team</ul>
 </li>
 </ul>
-<p>
+<p align="center">
 La base de la pokedex gira e torno al servicio que llama la PokeApi y las funciones 
 </p>
