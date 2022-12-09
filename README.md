@@ -1,15 +1,13 @@
 
-<h1  style="align-items:center">
-Pokedex
-</h1>.
+<h1 align="center">Pokedex</h1>.
 
-<p style="text-align:center">
+<p align="center">
 
 ![Gengar](https://github.com/ManeDM/Pokedex/blob/main/src/assets/team-imgs/gengar-3.gif)
 
 </p>
 
-<h2 style="text-align:center" width="150px"> Estructura de carpetas</h2>
+<h2 align="center" width="150px"> Estructura de carpetas</h2>
 <ul>
 <li>Pages
 <ul>Details</ul>
