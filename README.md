@@ -1,7 +1,7 @@
 
-<h1  style="text-align:center">
-
-Fuente: https://www.iteramos.com/pregunta/34047/github-readmemd-imagen-central>Pokedex</h1>.
+<h1  style="align-items:center">
+Pokedex
+</h1>.
 
 <p style="text-align:center">
 
