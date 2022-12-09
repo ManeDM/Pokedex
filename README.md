@@ -86,13 +86,13 @@ No tiene ninguna funcionalidad, esta hecho a base de HTML y CSS, son un conjunto
 
 <img src="https://github.com/ManeDM/Pokedex/blob/main/src/assets/read_img/TS-Home.jpeg" width="350px"> 
 
-</p>
 <p align="right">
 
 <img src="https://github.com/ManeDM/Pokedex/blob/main/src/assets/read_img/HTML-Home.jpeg" width="350px"> 
 
 </p>
 
+</p>
 
-<p align="center">
+
 La función principal Home es poder usar los datos del servicio empleados en todos los otros modulos, a su vez el componente HTML es la ruta principal donde se importan cada uno de los etiquetas que enlezan a los componentes.
