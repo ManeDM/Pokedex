@@ -75,24 +75,41 @@ La función principal del poke-search este basada en dato de entrada que el usua
 </p>
 
 <h3 align="center">Poke-Team</h3>
+<p align="center">
 
-No tiene ninguna funcionalidad, esta hecho a base de HTML y CSS, son un conjunto de tarjetas enlazadas a los datos especificos de cada pokemon al que se ahce referencia.
+<img src="https://github.com/ManeDM/Pokedex/blob/main/src/assets/read_img/PokeSearch.jpeg" width="350px"> 
+
+</p>
+
+El Poke-Team esta formado por tarjetas de los datos especificos de cada pokemon al que se hace referencia, hace uso en un NGif y una variable llamada show con una funcion asociada con base a valores booleanos que permiten generar el Switch que nos permite crear y destruir el componente en tiempo real, lo que nos permite enseñar y ocultar el equipo sin alterar la distribucion de los otros componentes.
 
 <h2 align="center">Pages y sus componentes</h2>
 
 <h3 align="center">Home</h3>
 
-<p align="left">
+<p align="center">
 
 <img src="https://github.com/ManeDM/Pokedex/blob/main/src/assets/read_img/TS-Home.jpeg" width="350px"> 
 
-<p align="right">
+</p>
+
+La función principal Home es poder usar los datos del servicio empleados en todos los otros modulos, a su vez el componente HTML es la ruta principal donde se importan cada uno de los etiquetas que enlezan a los componentes.
+
+<p align="center">
 
 <img src="https://github.com/ManeDM/Pokedex/blob/main/src/assets/read_img/HTML-Home.jpeg" width="350px"> 
 
 </p>
 
+
+<h3 align="center">Poke-Details</h3>
+<p align="center">
+
+<img src="https://github.com/ManeDM/Pokedex/blob/main/src/assets/read_img/PokeSearch.jpeg" width="350px"> 
+
 </p>
 
+<p align="center">
+En este componente se ubican los datos especifcios de cada pokemon, esto se hace mediante la creacion de una varaible privada que hace referencia el decorador "ActivateRoute", seuido a esto mediante el elemento "GET" creamos una función que nos permita enrutar los valores de las tarjetas mediante el uso de 3 constantes "ID" "POKEMON" y "NAME".
 
-La función principal Home es poder usar los datos del servicio empleados en todos los otros modulos, a su vez el componente HTML es la ruta principal donde se importan cada uno de los etiquetas que enlezan a los componentes.
+
