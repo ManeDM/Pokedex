@@ -7,7 +7,7 @@
 
 </p>
 
-<p align="center">
+<p>
 La base de la pokedex gira e torno al servicio que llama la PokeApi, esta funcion es llamada a cada uno de los componentes generados al inicio del proyecto y el TS de cada componente se encarga de llamar los datos requeridos desde la PokeAPI.
 
 Hay 2 grupos de componentes en el proyecto dispuesto en su respectivas carpetas, en la carpeta Pages se encuetran los componentes "Details" y "Home
