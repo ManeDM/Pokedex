@@ -39,7 +39,7 @@ El segundo grupo esta ubicado en la carpeta Shared y se encuentran los component
 </p>
 
 <p>
-Se crea un metodo privado para llamar la pokeAPI, luego se crea un segundo metodo que se encargara de llamar a los pokemons mediante el uso de GET, este metodo nos devolvera cada uno de los objetos listados en la API 
+Se crea un metodo privado para llamar la pokeAPI, luego se crea un segundo metodo que se encargara de llamar a los pokemons mediante el uso de "GET", este metodo nos devolvera cada uno de los objetos listados en la API, ya que la funcionalidad "MAP", nos permite mapear cada uno de los los objetos dentro de "results" que para este vendria a ser cada pokemon y los atributos que los componen.
 </p>
 
 <h2>Shared y sus componentes</h2>
